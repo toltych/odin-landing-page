@@ -11,8 +11,11 @@ GOALS:
     
 SKILLS Practiced:
 
-- Git Staging, Commiting, and Pushing to GITHUB
-- Placeholder
-- Placeholder
-- Placeholder
-- Placeholder
+- Git Staging, Committing, and Pushing to GITHUB
+- Creating Flex Containers (using `display: flex` on parent elements)
+- Main-Axis Alignment (using `justify-content` with values like `space-between` and `center`)
+- Cross-Axis Alignment (using `align-items` with values like `center`)
+- Controlling Flex Items (using `flex`, `flex-grow`, `flex-shrink`, and `flex-basis` properties)
+
+
+
