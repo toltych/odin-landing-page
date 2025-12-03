@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,56 +8,81 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <div class="header">
-        <h1>Header Logo</h1>
-        <a href="example.com">header link one</a>
-        <a href="example.com">header link two</a>
-        <a href="example.com">header link three</a>
-    </div>
-
-    <div class="content">
-        
-        <div class="section-1">
-            <div class="card">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</p>
-                <button>Sign Up</button>
+    <!--start hero container-->
+    <div class="hero">
+        <div class="hero-header">
+            <h1 class="header-logo">Header Logo</h1>
+            <nav class="header-nav-links">
+                <a href="example.com">header link one</a>
+                <a href="example.com">header link two</a>
+                <a href="example.com">header link three</a>
+            </nav>
+        </div>
+        <div class="hero-section">
+            <div class="hero-section-left">
+                <h2 class="hero-section-heading">This website is awesome</h2>
+                <p class="hero-section-text">This website has some subtext that goes here under the main title. It's a
+                    smaller font and the color is lower contrast</p>
+                <button class="hero-section-signup-btn">Sign Up</button>
             </div>
-            <img src="images/circles.svg" alt="Image of Apollonian circles">
-        </div>
-
-        <div class="section-2">
-            <h1>Some random information</h1>
-            <div class="card">
-                <img src="images/circles.svg">
-                    <p>this is some subtext under an illustration or image</p>
-                <img src="images/circles.svg">
-                    <p>this is some subtext under an illustration or image</p>
-                <img src="images/circles.svg">
-                    <p>this is some subtext under an illustration or image</p>
-            </div>
-        </div>
-
-        <div class="section-3">
-            <p>This is an inspiring quote or a testimonial from a customer. Maybe its just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <p>-Thor, God of Thunder</p>
-        </div>
-
-        <div class="section-4">
-            <div class="card">
-                <h1>Call to action! It's time!</h1>
-                <p>Sign up for our product by clicking that button right over there!</p>
-                <button>Sign up</button>
+            <div class="hero-section-image">
+                <img src="images/placeholder.png">
             </div>
         </div>
 
     </div>
+    <!--end hero container-->
 
+    <!--start main container-->
+    <div class="main">
+        <div class="main-header">
+            <h3>Some random information.</h3>
+        </div>
+        <div class="main-image-row">
+            <div class="main-image-card">
+                <img src="images/placeholder.png">
+                <p>this is some subtext</p>
+            </div>
+            <div class="main-image-card">
+                <img src="images/placeholder.png">
+                <p>this is some subtext</p>
+            </div>
+            <div class="main-image-card">
+                <img src="images/placeholder.png">
+                <p>this is some subtext</p>
+            </div>
+            <div class="main-image-card">
+                <img src="images/placeholder.png">
+                <p>this is some subtext</p>
+            </div>
+        </div>
+        <div class="main-quote">
+            <p class="main-quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p class="main-quote-citation">-Thor, God of Thunder</p>
+        </div>
+        <div class="main-call-to-action">
+            <div class="main-call-to-action-modal">
+                <div class="main-call-to-action-modal-text">
+                    <p class="main-call-to-action-modal-text-heading">Call to action! It's time!</p>
+                    <p class="main-call-to-action-modal-text-body">Sign up for our product by clicking that button right over there!</p>
+                </div>
+            <button class="main-call-to-action-modal-btn">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end main container-->
+
+    <!--start footer container-->
     <div class="footer">
-        <p>Copyright © The Odin Project 2021</p>
+        <p class="footer-text">Copyright &copy; The Odin Project 2021</p>
     </div>
+    <!--end footer container-->
+
 
 </body>
+
 </html>
