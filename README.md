@@ -7,7 +7,7 @@ landing page
     
 GOALS:
     
--Create an entire web page from design outlined by [Odin Project: Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page)
+- Create an entire web page from design outlined by [Odin Project: Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page)
     
 SKILLS Practiced:
 
